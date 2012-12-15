@@ -257,6 +257,7 @@ h1 + .btn-action + p  {
 	box-shadow: 0 0 0 1px #fff, 1px 1px 5px 1px #999999;
 	-moz-box-shadow: 0 0 0 1px #fff, 1px 1px 5px 1px #999999;
 	-webkit-box-shadow: 0 0 0 1px #fff, 1px 1px 5px 1px #999999;
+	background-color: #fbc782;
 	background-image: linear-gradient(bottom, #F9AA3C 36%, #FDEAD0 94%);
 	background-image: -o-linear-gradient(bottom, #F9AA3C 36%, #FDEAD0 94%);
 	background-image: -moz-linear-gradient(bottom, #F9AA3C 36%, #FDEAD0 94%);
