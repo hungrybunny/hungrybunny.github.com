@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+    <meta name="robots" content="noindex">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1">
+
+	<link rel="stylesheet" href="utilities/fancybox/jquery.fancybox-1.3.4.css">
+	<link rel="stylesheet" href="http://fast.fonts.com/cssapi/04882029-9400-483d-85b4-b3d4a2f56b35.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+	
+<body id="pg-home">
+	
+<div id="template">
+	
+	<div id="branding">
+		<h1><a href="home.html">BMC Switzerland</a></h1>
+		<ul class="sites">
+			<li class="locale"><a href="#">Change language</a>
+				<ul>
+					<li class="stet"><a href="#nochange" class="close-widget">As selected</a></li>
+					<li class="selected"><a href="#english">English</a></li>
+					<li><a href="#french">French</a></li>
+					<li><a href="#german">German</a></li>
+					<li><a href="#italian">Italian</a></li>
+				</ul>
+			</li>
+			<li><a href="http://www.bmc-racing.com">Visit BMC homepage</a></li>
+		</ul>
+	</div>
+	
+	<ul id="utility">
+		<li class="sections"><a href="#sections">Sections</a>
+			<ul>
+				<li><a href="section.html"><strong>Culture</strong>Blast</a></li>
+				<li><a href="section.html"><strong>Design</strong>Eye</a></li>
+				<li><a href="section.html"><strong>Health</strong>Focus</a></li>
+				<li><a href="section.html"><strong>Team</strong>Spirit</a></li>
+				<li><a href="section.html"><strong>Event</strong>Radar</a></li>
+				<li><a href="section.html"><strong>BMC </strong> Voice</a></li>
+			</ul>
+		</li>
+		<li class="search"><a href="#search-site">Search</a>
+			<div class="lightbox-content">
+				<form id="search-site" action="searchresults.html">
+					<a href="#close" class="pop-close">close</a>
+					<fieldset>
+				        <input type="text" name="searchterm" value="Search...">
+				        <input type="image" src="images/clear.png" class="btn-search" value="Submit" alt="Submit" />
+					</fieldset>
+					<fieldset class="filter-sections">
+						<legend>Check boxes to narrow search:</legend>
+						<ul class="filter">
+							<li>
+								<input type="checkbox" id="search-culture" value="cultureblast">
+								<label for="search-culture"><strong>Culture</strong>Blast</label>
+							</li>
+							<li>
+								<input type="checkbox" id="search-design" value="designeye">
+								<label for="search-design"><strong>Design</strong>Eye</label>
+							</li>
+							<li>
+								<input type="checkbox" id="search-health" value="healthfocus">
+								<label for="search-health"><strong>Health</strong>Focus</label>
+							</li>
+							<li>
+								<input type="checkbox" id="search-team" value="teamspirit">
+								<label for="search-team"><strong>Team</strong>Spirit</label>
+							</li>
+							<li>
+								<input type="checkbox" id="search-event" value="eventradar">
+								<label for="search-event"><strong>Event</strong>Radar</label>
+							</li>
+							<li>
+								<input type="checkbox" id="search-voice" value="bmcvoice">
+								<label for="search-voice"><strong>BMC </strong> Voice</label>
+							</li>
+						</ul>
+					</fieldset>
+				</form>
+			</div>
+		</li>
+		<li class="archive cloaked"><a href="archive.html">Archive</a></li>
+		<li class="updates cloaked"><a href="#updates">Updates</a></li>
+	</ul>
+	
+	<div id="cover">
+		<h1>Tempo</h1>
+		<h2><a href="#main">A monthly read on cycling, Switzerland, and things that fall in-between.</a></h2>
+		<img src="images/dummy/home_hero.jpg">
+	</div>
+
+	<div id="debug"  style="display:none">
+		<p class="currentPos">currentPos: <span></span></p>
+		<strong>#branding</strong>
+		<ul class="branding">
+			<li class="offset">offsetTop: <span></span></li>
+			<li class="cushion">cushionTop: <span></span></li>
+			<li class="start">startPos: <span></span></li>
+			<li class="stop">stopPos: <span></span></li>
+			<li class="where">whereStop: <span></span></li>
+			<li class="trip1">tripwire1: <span></span></li>
+			<li class="trip2">tripwire2: <span></span></li>
+		</ul>
+		<strong>#utility</strong>
+		<ul class="utility">
+			<li class="offset">offsetTop: <span></span></li>
+			<li class="cushion">cushionTop: <span></span></li>
+			<li class="start">startPos: <span></span></li>
+			<li class="stop">stopPos: <span></span></li>
+			<li class="where">whereStop: <span></span></li>
+			<li class="trip1">tripwire1: <span></span></li>
+			<li class="trip2">tripwire2: <span></span></li>
+		</ul>
+		<strong>#social-actions</strong>
+		<ul class="social-actions">
+			<li class="offset">offsetTop: <span></span></li>
+			<li class="cushion">cushionTop: <span></span></li>
+			<li class="start">startPos: <span></span></li>
+			<li class="stop">stopPos: <span></span></li>
+			<li class="where">whereStop: <span></span></li>
+			<li class="trip1">tripwire1: <span></span></li>
+			<li class="trip2">tripwire2: <span></span></li>
+		</ul>
+	</div>
+	
+	<div id="main">
+		<div class="issue">
+			<div class="folio">
+				<ul class="edition">
+					<li>Issue 3</li>
+					<li>April 2013</li>
+				</ul>
+				<ul class="identity">
+					<li>Tempo</li>
+					<li>Setting the pace of cycling culture</li>
+				</ul>
+			</div>
+
+			<ul class="article-listing">
+				<li class="feature verso">
+					<a href="feature.html"><img src="images/dummy/home_feature-1.jpg"></a>
+
+					<div class="article-intro">
+						<h4><a href="section.html"><strong>Culture</strong>Blast</a></h4>
+						<h1>Bern the candle at both ends: What to do with 24 hours in this great city.</h1>
+						<h2>Duis aliquet venenatis dui, eget lobortis nunc faucibus vitae. Nulla eu sollicitudin nunc. Maecenas metus justo, porta ut posuere non, aliquam sed orci. Ut in justo at turpis malesuada tempus. Ut lacinia nisl enim, et feugiat quam.</h2>
+						<a href="feature.html" class="more-lnk">Read Feature &raquo;</a>
+					</div>
+				</li><!-- .feature.verso -->
+				
+				<li><a href="standard.html"><img src="images/dummy/thumb-1.jpg"></a>
+					<h4><a href="section.html"><strong>Design</strong>Eye</a></h4>
+					<h3><a href="standard.html">Carbon credit: Why carbon has changed the way bikes are designed.</a></h3>
+					<p>Trial and error, rinse and repeat until it's right; engineering excellence doesn't come easy, but it's a challenge we're committed to.</p>
+				</li>
+				<li><a href="standard.html"><img src="images/dummy/thumb-2.jpg"></a>
+					<h4><a href="section.html"><strong>Culture</strong>Blast</a></h4>
+					<h3><a href="standard.html">Fondue or fondon't: Swiss cuisine is more than just cheese.</a></h3>
+					<p>And to prove it, we'll be posting some great, cyclist-ready recipes designed by our very own race team chef, Peter Cambr&eacute;.</p>
+				</li>
+				<li><a href="standard.html"><img src="images/dummy/thumb-3.jpg"></a>
+					<h4><a href="section.html"><strong>Event</strong>Radar</a></h4>
+					<h3><a href="standard.html">Taking it to the streets: Coming soon to a dealer near you!</a></h3>
+					<p>That's right, we're taking this show on the road, stopping at towns and cities across the country.</p>
+				</li>
+				<li><a href="standard.html"><img src="images/dummy/thumb-4.jpg"></a>
+					<h4><a href="section.html"><strong>Health</strong>Focus</a></h4>
+					<h3><a href="standard.html">Just what the doctor ordered: A chat with team doctor Eric Heiden.</a></h3>
+					<p>Dr. Eric Heiden talks to us through a typical day taking care of the health needs of a professional racing team.</p>
+				</li>
+			</ul><!-- .article-listing -->
+		</div><!-- .issue -->
+		
+		<div class="issue">
+			<div class="folio">
+				<ul class="edition">
+					<li>Issue 2</li>
+					<li>March 2013</li>
+				</ul>
+				<ul class="identity">
+					<li>Tempo</li>
+					<li>Setting the pace of cycling culture</li>
+				</ul>
+			</div>
+
+			<ul class="article-listing">
+				<li class="feature recto">
+					<a href="feature.html"><img src="images/dummy/home_feature-2.jpg"></a>
+
+					<div class="article-intro">
+						<h4><a href="section.html"><strong>Design</strong>Eye</a></h4>
+						<h1>Impect&mdash;handmade by machines: Swiss precision in every frame.</h1>
+						<h2>Nulla eu sollicitudin nunc. Maecenas metus justo, porta ut posuere non, aliquam sed orci. ut in justo at turpis malesuada tempus. Ut lacinia nisl enim, et feugiat quam.</h2>
+						<a href="feature.html" class="more-lnk">Read Feature &raquo;</a>
+					</div>
+				</li><!-- .feature.recto -->
+				
+				<li><a href="standard.html"><img src="images/dummy/thumb-5.jpg"></a>
+					<h4><a href="section.html"><strong>Culture</strong>Blast</a></h4>
+					<h3><a href="standard.html">Praesent id lectus eu ipsum elementum tempor eget ac urna. Nam tincidunt.</a></h3>
+					<p>Etiam posuere nulla sodales augue sodales et aliquam ante faucibus. Phasellus eu eleifend erat. Donec luctus dapibus venenatis. Suspen disse tellus risus.</p>
+				</li>
+				<li><a href="standard.html"><img src="images/dummy/thumb-6.jpg"></a>
+					<h4><a href="section.html"><strong>Health</strong>Focus</a></h4>
+					<h3><a href="standard.html">Fusce fringilla orci quis mi adipiscing luctus. Donec libero quam, consequat.</a></h3>
+					<p>Duis aliquet venenatis dui, eget lobortis nunc faucibus vitae. Nulla eu sollicitudin nunc. Maecenas metus justo, porta ut posuere non.</p>
+				</li>
+				<li><a href="standard.html"><img src="images/dummy/thumb-7.jpg"></a>
+					<h4><a href="section.html"><strong>Event</strong>Radar</a></h4>
+					<h3><a href="standard.html">Nulla euismod, magna quis dignis consequat, enim nulla.</a></h3>
+					<p>Etiam tincidunt tortor at lorem tris-tique vel blandit tellus elementum. Quisque rhoncus commodo odio. Mauris eleifend, enim vel dignissim tristique, erat odio dignissi.</p>
+				</li>
+				<li><a href="standard.html"><img src="images/dummy/thumb-8.jpg"></a>
+					<h4><a href="section.html"><strong>Health</strong>Focus</a></h4>
+					<h3><a href="standard.html">Etiam erat lacus, rutrum sit amet porttitor quis, luctus nec velit.</a></h3>
+					<p>Quisque bibendum mauris sed arcu porttitor vitae lacinia dui sus-cipit. Praesent quis purus vel velit lacinia congue vel eget felis.</p>
+				</li>
+			</ul><!-- .article-listing -->
+		</div><!-- .issue -->
+	
+		<p class="load-more"><a href="#load-more">Load More Results</a></p>	
+	</div><!-- #main -->
+	
+	<div id="footer">
+		<h2><a href="home.html">Tempo</a> <em><a href="http://www.bmc-racing.com">BMC Switzerland</a></em></h2>
+		
+		<ul id="touchpoints">
+			<li class="email"><h3>sign-up for updates</h3>
+				<form class="get-updates" action="#" method="get">
+				    <fieldset>
+						<legend>Stay up-to-date with new issues direct to your inbox. Tempo is published once a month.</legend>
+				        <input type="text" name="email" value="Enter your email address...">
+				        <input type="image" src="images/clear.png" class="btn-signup" value="Submit" alt="Submit" />
+				    </fieldset>
+				</form>
+			</li>
+			<li class="social"><h3>connect</h3>
+				<ul>
+					<li class="twitter"><a href="https://twitter.com/BMCProTeam" target="external">Twitter</a></li>
+					<li class="facebook"><a href="http://www.facebook.com/BMCProTeam" target="external">Facebook</a></li>
+					<li class="youtube"><a href="http://www.youtube.com/user/DefinitionOfCycling" target="external">YouTube</a></li>
+				</ul>
+			</li>
+			<li class="dealers"><h3>find a dealer</h3>
+				<a href="http://www.bmc-racing.com/us-en/dealers/find-a-dealer.html" title="Find your nearest BMC dealer">Find your nearest BMC dealer</a>
+			</li>
+		</ul>
+		<ul id="colophon">
+			<li>A BMC publication</li>
+			<li class="copyright">&copy; BMC 2012 All rights reserved</li>
+		</ul>
+	</div><!-- #footer -->
+</div><!-- #template -->
+
+	
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="utilities/fancybox/jquery.fancybox-1.3.4-modified.js"></script>
+<script src="utilities/jquery.imagesloaded.min.js"></script>
+<script src="javascript/main.js"></script>
+
+</body>
+</html>
