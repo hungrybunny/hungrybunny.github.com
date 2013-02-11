@@ -524,7 +524,7 @@ function waitForWebfonts(fonts, callback) {
 		checksum = fonts.length,
 		i, l, muzak;
 	
-	var DEBUG = true;
+	var DEBUG = false;
 	if (DEBUG)  {  // start
 		var inspect = $('<div id="debug" />').prependTo('#main');
 	}  // debug: end
