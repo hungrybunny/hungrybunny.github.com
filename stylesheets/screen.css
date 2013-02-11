@@ -567,3 +567,12 @@ dd p:first-child {
   font-size: .85em;
   font-style: italic;
 }
+
+
+/***********************/
+#main-content > *  {
+    display: none;
+}
+#main-content #bacon-ipsum  {
+    display: block;
+}
