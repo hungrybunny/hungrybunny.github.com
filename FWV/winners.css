@@ -1,0 +1,179 @@
+#hero-txt  {
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+#main-content  {
+	xbackground-color: #f7f7f7;
+	font-family: 'Trade Gothic Next W01', Arial, sans-serif;
+}
+.regional p  {
+	clear: both;
+	margin: 0 0 1em 0;
+	padding: 0;
+	xfont-size: 12px;
+}
+.winners ul + p::first-line  {
+	color: #3a474f;
+	font-size: 110%;
+	font-weight: bold;
+}
+.winners  {
+	width: 100%;
+	overflow: hidden;
+	border: 10px solid #f7f7f7;
+	border-width: 0 0 10px 10px;
+}
+.winners li  {
+	xbackground-color: #ffffff;
+	list-style: none;
+}
+
+ul  {
+	margin: 0;
+	padding: 0;
+}
+#main-content .winners .national  {
+	float: none;
+	width: auto;
+	max-width: 100%;
+	height: 396px;
+	margin: 25px 10px 0 -10px;
+	border-right: 10px solid #f7f7f7;
+	xoverflow: hidden;
+}
+.winners .media  {
+	display: block;
+	width: inherit;
+	height: 270px;
+	margin: 0 0 12px 0;
+	overflow: hidden;
+}
+.winners > li  {
+	position: relative;
+	float: left;
+	padding: 15px;
+	margin-left: -10px;
+	padding: 8px 8px 40px;
+	border: 10px solid #f7f7f7;
+	border-bottom: none;
+	xbackground: url(http://www.futureswithoutviolence.org/images/refresh/footer_bkd.png) 100% 100% no-repeat;
+	z-index: 1;
+}
+.winners > li:after  {
+	content: '# # #';  /*url(images/sunnyhill.png);*/
+	display: block;
+	text-align: center;
+	x-webkit-transform: scale(.7);
+	opacity: .3;
+}
+.winners h2  {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.winners h3  {
+	margin: 0 0 5px 0;
+	color: #3a474f;
+	font-size: 24px;
+}
+.regional  {
+	width: 360px;
+}
+.regional .media  {
+	margin-top: -15px;
+}
+.national .media  {
+	float: left;
+	width: 450px !important;
+	height: 338px !important;
+	margin-right: 15px;
+}
+.national .media iframe  {
+	width: inherit;
+	height: inherit;
+}
+.national p  {
+	xpadding-right: 25px;
+}
+
+.winners ul  {
+	font-size: 16px;
+}
+.winners .mugshot  {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin: 0 15px 10px 0;
+}
+
+#northwest  {
+	clear: left;
+}
+#northwest h3  {
+	margin: -2px 0 3px;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+
+.winners h2  {
+	position: relative;
+	width: 35%;	   
+	margin: -30px auto 1.5em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+	padding: .5em 1em; /* Adjust to suit */
+	background-color: #2176a4;
+	color: #ffffff;
+	xfont-family: 'Trade Gothic W01 Bold', Arial, sans-serif;
+	font-size: 16px !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+	xletter-spacing: -.05em;
+	text-transform: uppercase;
+}
+
+.winners h2:before, .winners h2:after  {
+	content: "";
+	position: absolute;
+	display: block;
+	bottom: -.5em;
+	border: 1em solid #185c81;
+	z-index: -1;
+}
+.winners h2:before  {
+	left: -1.5em;
+	border-right-width: 1.5em;
+	border-left-color: transparent;
+}
+.winners h2:after  {
+	right: -1.5em;
+	border-left-width: 1.5em;
+	border-right-color: transparent;
+}
+.winners h2 span:before, 
+.winners h2 span:after  {
+	content: "";
+	position: absolute;
+	display: block;
+	border-style: solid;
+	border-color: #3a474f transparent transparent transparent;
+	bottom: -.5em;
+}
+.winners h2 span:before  {
+	left: 0;
+	border-width: .5em 0 0 1em;
+}
+.winners h2 span:after  {
+	right: 0;
+	border-width: .5em 1em 0 0;
+}
+
+
+.meat, .potatoes, .gallery  {
+	display: none !important;
+}
+#branding  {
+	margin-bottom: 0;
+}
+#copyright  {
+	margin-top: 0;
+}
