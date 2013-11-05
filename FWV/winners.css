@@ -40,14 +40,21 @@ ul  {
 	height: 396px;
 	margin: 25px 10px 0 -10px;
 	border-right: 10px solid #f7f7f7;
+	box-shadow: 0 -30px 0 0 #f7f7f7;
 	xoverflow: hidden;
 }
 .winners .media  {
+	position: relative;
 	display: block;
-	width: inherit;
+	width: 360px;
 	height: 270px;
+	width: 348px;
+	height: 273px;
 	margin: 0 0 12px 0;
-	overflow: hidden;
+	xoverflow: hidden;
+}
+.winners .media.bedeck  {
+	height: 261px;
 }
 .winners > li  {
 	position: relative;
@@ -60,8 +67,15 @@ ul  {
 	xbackground: url(http://www.futureswithoutviolence.org/images/refresh/footer_bkd.png) 100% 100% no-repeat;
 	z-index: 1;
 }
-.winners > li:after  {
+.winners > .regional:after  {
 	content: '# # #';  /*url(images/sunnyhill.png);*/
+	display: block;
+	text-align: center;
+	x-webkit-transform: scale(.7);
+	opacity: .3;
+}
+.winners > .national:after  {
+	content: '# # # #';  /*url(images/sunnyhill.png);*/
 	display: block;
 	text-align: center;
 	x-webkit-transform: scale(.7);
@@ -77,21 +91,53 @@ ul  {
 	color: #3a474f;
 	font-size: 24px;
 }
+.bedeck  {
+	padding: 5px;
+	border: 1px solid #e4e4e4;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, .04), 0 1px 5px rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+}
+.national .bedeck.aux  {
+	margin: -10px auto;
+	padding: 4px;
+	x-webkit-transform: rotate(2deg);
+	x-moz-transform: rotate(2deg);
+	xtransform: rotate(2deg);
+}
+.media .bedeck.aux  {
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
+	padding: 2px;
+	-webkit-transform: rotate(6deg);
+	-moz-transform: rotate(6deg);
+	transform: rotate(6deg);
+}
 .regional  {
 	width: 360px;
 }
 .regional .media  {
-	margin-top: -15px;
+	margin-top: -18px;
 }
 .national .media  {
 	float: left;
-	width: 450px !important;
-	height: 338px !important;
+	width: 450px;
+	height: 338px;
+	width: 435px;
+	height: auto;
 	margin-right: 15px;
+	margin-top: 6px;
 }
 .national .media iframe  {
-	width: inherit;
-	height: inherit;
+	width: 640px;
+	height: 360px;
+	width: 380px;
+	height: 214px;
+	width: 420px;
+	height: 236px;
+	height: 250px;
+	xwidth: 450px;
+	xheight: 253px;
 }
 .national p  {
 	xpadding-right: 25px;
@@ -100,32 +146,60 @@ ul  {
 .winners ul  {
 	font-size: 16px;
 }
+.winners ul li  {
+	display: inline;
+}
+.winners h3  {
+	display: inline;
+}
+.winners .location  {
+	xpadding-left: 15px;
+	font-size: 20px;
+}
+.winners .location:before  {
+	content: '- ';
+	padding-left: 5px;
+}
+.winners .donation  {
+	display: block;
+}
+.winners .donation:before  {
+	content: 'Recipient: ';
+	font-size: 80%;
+	text-transform: uppercase;
+	xfont-style: italic;
+}
 .winners .mugshot  {
+	display: none;
 	float: left;
 	width: 80px;
 	height: 80px;
 	margin: 0 15px 10px 0;
 }
 
-#northwest  {
+#northwest, #northeast  {
 	clear: left;
 }
 #northwest h3  {
-	margin: -2px 0 3px;
-	font-size: 18px;
-	line-height: 1.2;
+	xmargin: -2px 0 3px;
+	xfont-size: 18px;
+	xline-height: 1.2;
 }
 
 
+.winners .ribbon  {
+	position: relative;
+	z-index: 4;
+}
 .winners h2  {
 	position: relative;
 	width: 35%;	   
 	margin: -30px auto 1.5em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
-	padding: .5em 1em; /* Adjust to suit */
+	padding: .35em 1em; /* Adjust to suit */
 	background-color: #2176a4;
 	color: #ffffff;
 	xfont-family: 'Trade Gothic W01 Bold', Arial, sans-serif;
-	font-size: 16px !important;
+	font-size: 15px !important;
  /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
 	xletter-spacing: -.05em;
 	text-transform: uppercase;
