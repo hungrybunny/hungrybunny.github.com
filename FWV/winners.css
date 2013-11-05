@@ -4,14 +4,12 @@
 	font-weight: bold;
 }
 #main-content  {
-	xbackground-color: #f7f7f7;
 	font-family: 'Trade Gothic Next W01', Arial, sans-serif;
 }
 .regional p  {
 	clear: both;
 	margin: 0 0 1em 0;
 	padding: 0;
-	xfont-size: 12px;
 }
 .winners ul + p::first-line  {
 	color: #3a474f;
@@ -23,9 +21,9 @@
 	overflow: hidden;
 	border: 10px solid #f7f7f7;
 	border-width: 0 0 10px 10px;
+	box-shadow: inset -10px 10px 0 8px #f7f7f7;
 }
 .winners li  {
-	xbackground-color: #ffffff;
 	list-style: none;
 }
 
@@ -41,17 +39,13 @@ ul  {
 	margin: 25px 10px 0 -10px;
 	border-right: 10px solid #f7f7f7;
 	box-shadow: 0 -30px 0 0 #f7f7f7;
-	xoverflow: hidden;
 }
 .winners .media  {
-	position: relative;
 	display: block;
-	width: 360px;
-	height: 270px;
+	position: relative;
 	width: 348px;
 	height: 273px;
 	margin: 0 0 12px 0;
-	xoverflow: hidden;
 }
 .winners .media.bedeck  {
 	height: 261px;
@@ -64,21 +58,18 @@ ul  {
 	padding: 8px 8px 40px;
 	border: 10px solid #f7f7f7;
 	border-bottom: none;
-	xbackground: url(http://www.futureswithoutviolence.org/images/refresh/footer_bkd.png) 100% 100% no-repeat;
 	z-index: 1;
 }
 .winners > .regional:after  {
-	content: '# # #';  /*url(images/sunnyhill.png);*/
+	content: '# # #';
 	display: block;
 	text-align: center;
-	x-webkit-transform: scale(.7);
 	opacity: .3;
 }
 .winners > .national:after  {
-	content: '# # # #';  /*url(images/sunnyhill.png);*/
+	content: '# # # #';
 	display: block;
 	text-align: center;
-	x-webkit-transform: scale(.7);
 	opacity: .3;
 }
 .winners h2  {
@@ -98,20 +89,25 @@ ul  {
 	background-color: #ffffff;
 }
 .national .bedeck.aux  {
+	width: 180px;
 	margin: -10px auto;
 	padding: 4px;
-	x-webkit-transform: rotate(2deg);
-	x-moz-transform: rotate(2deg);
-	xtransform: rotate(2deg);
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	-ms-transform: rotate(3deg);
+	transform: rotate(3deg);
+	-webkit-backface-visibility: hidden;
 }
-.media .bedeck.aux  {
+#mid-atlantic .bedeck.aux  {
 	position: absolute;
 	bottom: -10px;
 	right: -10px;
 	padding: 2px;
 	-webkit-transform: rotate(6deg);
 	-moz-transform: rotate(6deg);
+	-ms-transform: rotate(6deg);
 	transform: rotate(6deg);
+	-webkit-backface-visibility: hidden;
 }
 .regional  {
 	width: 360px;
@@ -121,26 +117,13 @@ ul  {
 }
 .national .media  {
 	float: left;
-	width: 450px;
-	height: 338px;
 	width: 435px;
 	height: auto;
-	margin-right: 15px;
-	margin-top: 14px;
+	margin: 14px 15px 0 0;
 }
 .national .media iframe  {
-	width: 640px;
-	height: 360px;
-	width: 380px;
-	height: 214px;
 	width: 420px;
-	height: 236px;
 	height: 250px;
-	xwidth: 450px;
-	xheight: 253px;
-}
-.national p  {
-	xpadding-right: 25px;
 }
 
 .regional ul + p  {
@@ -159,7 +142,6 @@ ul  {
 	display: inline;
 }
 .winners .location  {
-	xpadding-left: 15px;
 	font-size: 20px;
 }
 .winners .location:before  {
@@ -174,7 +156,6 @@ ul  {
 	content: 'Recipient: ';
 	font-size: 80%;
 	text-transform: uppercase;
-	xfont-style: italic;
 }
 .winners .mugshot  {
 	display: none;
@@ -188,12 +169,22 @@ ul  {
 	clear: left;
 }
 #northwest h3  {
-	xmargin: -2px 0 3px;
 	padding-top: 5px;
-	xfont-size: 18px;
 	line-height: 1.2;
 }
-
+#northwest p + img  {
+	width: 280px;
+	height: auto;
+	margin: 20px auto;
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-ms-transform: rotate(-2deg);
+	transform: rotate(-2deg);
+	-webkit-backface-visibility: hidden;
+}
+#midwest p + img  {
+	margin: 30px auto;
+}
 
 .winners .ribbon  {
 	position: relative;
@@ -206,10 +197,8 @@ ul  {
 	padding: .35em 1em; /* Adjust to suit */
 	background-color: #2176a4;
 	color: #ffffff;
-	xfont-family: 'Trade Gothic W01 Bold', Arial, sans-serif;
 	font-size: 15px !important;
  /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
-	xletter-spacing: -.05em;
 	text-transform: uppercase;
 }
 
