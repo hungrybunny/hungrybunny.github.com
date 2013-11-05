@@ -126,7 +126,7 @@ ul  {
 	width: 435px;
 	height: auto;
 	margin-right: 15px;
-	margin-top: 6px;
+	margin-top: 14px;
 }
 .national .media iframe  {
 	width: 640px;
@@ -143,8 +143,14 @@ ul  {
 	xpadding-right: 25px;
 }
 
+.regional ul + p  {
+	margin-top: 1em;
+}
 .winners ul  {
 	font-size: 16px;
+}
+.national ul  {
+	padding-top: 7px;
 }
 .winners ul li  {
 	display: inline;
@@ -162,6 +168,7 @@ ul  {
 }
 .winners .donation  {
 	display: block;
+	padding-top: 3px;
 }
 .winners .donation:before  {
 	content: 'Recipient: ';
@@ -182,8 +189,9 @@ ul  {
 }
 #northwest h3  {
 	xmargin: -2px 0 3px;
+	padding-top: 5px;
 	xfont-size: 18px;
-	xline-height: 1.2;
+	line-height: 1.2;
 }
 
 
