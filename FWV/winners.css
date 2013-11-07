@@ -98,7 +98,7 @@ ul  {
 	transform: rotate(3deg);
 	-webkit-backface-visibility: hidden;
 }
-#mid-atlantic .bedeck.aux  {
+.mid-atlantic .bedeck.aux  {
 	position: absolute;
 	bottom: -10px;
 	right: -10px;
@@ -165,14 +165,14 @@ ul  {
 	margin: 0 15px 10px 0;
 }
 
-#northwest, #northeast  {
+.northwest, .northeast  {
 	clear: left;
 }
-#northwest h3  {
+.northwest h3  {
 	padding-top: 5px;
 	line-height: 1.2;
 }
-#northwest p + img  {
+.northwest p + img  {
 	width: 280px;
 	height: auto;
 	margin: 20px auto;
@@ -182,7 +182,7 @@ ul  {
 	transform: rotate(-2deg);
 	-webkit-backface-visibility: hidden;
 }
-#midwest p + img  {
+.midwest p + img  {
 	margin: 30px auto;
 }
 
