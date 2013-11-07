@@ -184,6 +184,11 @@ ul  {
 }
 .midwest p + img  {
 	margin: 30px auto;
+	-webkit-transform: rotate(-1.2deg);
+	-moz-transform: rotate(-1.2deg);
+	-ms-transform: rotate(-1.2deg);
+	transform: rotate(-1.2deg);
+	-webkit-backface-visibility: hidden;
 }
 
 .winners .ribbon  {
