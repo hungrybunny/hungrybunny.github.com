@@ -290,8 +290,9 @@ ul  {
 #main-content .winners + #badges  {
 	position: relative;
 	width: auto;
+	max-width: 100%;
 	height: 51px;
-	padding: 10px 0;
+	padding: 10px 15px 10px 20px;
 	border: 10px solid #f7f7f7;
 	border-width: 0 9px 10px;
 	text-align: center;
@@ -308,7 +309,7 @@ ul  {
 	float: left;
 	width: 160px;
 	height: 40px;
-	margin: 5px 0 0 20px;
+	margin: 5px 0 0 0;
 	background: url(images/ftr_RESPECT.jpg);
 }
 .winners + #badges .partner  {
@@ -321,17 +322,180 @@ ul  {
 	float: right;
 	width: 218px;
 	height: 42px;
-	margin: 5px 15px 0;
+	margin: 5px 0 0;
 	background: url(images/ftr_FWV.gif);
 }
 
 
-.meat, .potatoes, .gallery  {
-	display: none !important;
-}
 #branding  {
 	margin-bottom: 0;
 }
 #copyright  {
 	margin-top: 0;
+}
+
+
+/******************************/
+.fbcanvas .national  {
+	padding-bottom: 55px;
+}
+.fbcanvas .national .media  {
+	width: 420px;
+}
+.fbcanvas .national .media iframe  {
+	width: 410px;
+	height: 244px;
+}
+.fbcanvas .winners > .national:after  {
+	position: relative;
+	top: -10px;
+}
+.fbcanvas .regional  {
+	width: 335px;
+}
+.fbcanvas .regional .media  {
+	width: 323px;
+	height: 242px;
+}
+.fbcanvas .regional .media.bedeck  {
+	height: 242px;
+}
+
+.fbcanvas .regional.mid-atlantic .media img:first-child  {
+	width: 323px;
+}
+.fbcanvas .regional.mid-atlantic ul  {
+	padding-top: 12px;
+}
+
+.fbcanvas .regional.midwest .bedeck.aux  {
+	width: 300px;
+}
+
+.fbcanvas .winners + #badges .partner  {
+	margin-left: 68px;
+}
+
+
+/******************************/
+.mobile #template  {
+	width: 320px;
+	padding: 0;
+}
+.mobile #hero  {
+	margin-bottom: 14px;
+	padding: 10px 10px 0;
+}
+.mobile #thanks-txt  {
+	padding: 4px 10px 10px;
+	line-height: 10px;
+}
+.mobile #hero .image  {
+	overflow: hidden;
+}
+.mobile #hero .image img  {
+	width: 500px;
+	margin: -15px 0 0 -97px;
+}
+.mobile #main-content  {
+	width: 300px;
+	border: 10px solid #f7f7f7;
+	overflow: visible;
+}
+.mobile .winners  {
+	margin-left: 0;
+	box-shadow: none;
+	border: none;
+}
+.mobile .winners > li  {
+	clear: left;
+	width: 284px;
+	margin-left: 0;
+	border-width: 10px 0 0;
+}
+.mobile .winners p  {
+	xpadding: 0 0 0 8px;
+}
+.mobile #main-content .winners .national  {
+	height: auto;
+	margin: 20px 0 0;
+	border-right: 6px solid #f7f7f7;
+	border-right: none;
+}
+.mobile .winners > .national:after  {
+	margin-top: 25px;
+}
+.mobile .winners .media, .mobile .winners > .national .media  {
+	width: 272px;
+	height: 204px;
+	margin-bottom: 12px;
+}
+
+.mobile .regional.northwest .bedeck.aux  {
+	width: 245px;
+}
+.mobile .regional.mid-atlantic .media  {
+	width: 284px;
+	height: 216px;
+}
+.mobile .regional.mid-atlantic .media img:first-child  {
+	width: 272px;
+	height: 204px;
+}
+.mobile .regional.mid-atlantic .bedeck.aux  {
+	right: 0;
+	width: 78px;
+}
+.mobile .regional.mid-atlantic h2  {
+	width: 38%;
+}
+.mobile .regional.midwest .bedeck.aux  {
+	width: 257px;
+}
+
+.mobile #main-content .winners + #badges  {
+	display: none;
+	xheight: auto;
+	padding: 10px 0;
+	border: none;
+}
+
+.mobile #branding  {
+	height: 70px;
+	margin: 14px 10px 0;
+	font-size: 31px;
+	line-height: 70px;
+}
+.mobile #copyright  {
+	padding-right: 10px;
+}
+
+.mobile .winners + #badges li  {
+	float: left;
+	list-style: none;
+	font-size: 1px;
+	text-indent: 114px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.mobile .winners + #badges .campaign  {
+	display: none;
+	width: 104px;
+	height: 26px;
+	margin: 0 8px 0 3px;
+	background: url(images/logo_RESPECT.gif);
+}
+.mobile .winners + #badges .partner  {
+	float: right;
+	width: 114px;
+	height: 33px;
+	margin: 0 15px 0 0;
+	background: url(images/logo_Macys.gif);
+}
+.mobile .winners + #badges .org  {
+	float: left;
+	width: 85px;
+	height: 39px;
+	margin: -3px 0 0 15px;
+	background: url(images/logo_FWV.jpg);
 }
