@@ -343,7 +343,7 @@ body.microsite #template  {
 	margin: 4px auto 10px;
 	background-color: #2176a4;
 	color: #ffffff;
-	font-family: 'Trade Gothic W01 Bold', Arial, sans-serif;
+	font-family: 'Trade Gothic Next W01 Bold', Arial, sans-serif;
 	line-height: 24px;
 	line-height: 38px;
 	text-transform: uppercase;
@@ -373,7 +373,7 @@ input[type=submit]  {
 	box-shadow: none !important;
 	background: #b9c937 !important;
 	color: #ffffff;
-	font-family: 'Trade Gothic W01 Bold', Arial, sans-serif;
+	font-family: 'Trade Gothic Next W01 Bold', Arial, sans-serif;
 	font-size: 16px;
 	letter-spacing: -.05em;
 	text-transform: uppercase;
@@ -750,7 +750,7 @@ x#the-entry .engagements_errorbox li:first-child  {
 	margin-top: 18px;
 	background-color: #676767;
 	color: #d5e355;
-	font-family: 'Trade Gothic W01 Bold', Arial, sans-serif;
+	font-family: 'Trade Gothic Next W01 Bold', Arial, sans-serif;
 	font-size: 48px;
 	font-weight: normal;
 	line-height: 110px;
