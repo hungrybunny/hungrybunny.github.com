@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/83fd35c9-7f25-4226-a83a-0e4e026645d9.css">
+	<link type="text/css" rel="stylesheet" href="sanebox.css">
+</head>
+
+<body>
+
+<div id="template">
+
+	<div id="masthead">
+		<h1><a href="#home">SaneBox</a></h1>
+		<ul class="gateway">
+			<li><a href="#get-started" class="btn-action">Get Started</a></li>
+			<li><a href="#log-in" class="btn-util">Log In</a></li>
+		</ul>
+	</div>
+
+	<div id="main">
+		<div id="intro">
+			<h1>Stop Drowning in Email!</h1>
+			<h2>SaneBox prioritizes important emails and summarizes the rest</h2>
+			<h3>Works with any email client, service or device</h3>
+
+			<form class="get-started">
+				<input type="text" placeholder="Type in your email">
+				<input type="submit" class="btn-CTA" value="Get Started">
+				<p class="fineprint">By signing up you agree to our <a href="#terms">Terms of Service</a> and <a href="#privacy">Privacy Policy</a></p>
+			</form>
+
+			<blockquote>
+				&ldquo;SaneBox is the best solution to email overload! Simple, flexible, I could never go back to the old technology&rdquo;
+				<em><a href="#tony-robbins">Tony Robbins</a></em>
+			</blockquote>
+		</div>
+		
+		<ul id="overview">
+			<li id="compare-before" class="current">
+				<h3>SaneBox moves your unimportant emails from the inbox...</h3>
+				<img src="http://saneboxpullzone-wanto.netdna-ssl.com/assets/sb-before-v2c-e4ee4431bcbcf786731125cdf1395d52.png">
+			</li>
+			<li id="compare-after">
+				<h3>...into a separate folder, and summarizes them in a digest.</h3>
+				<img src="http://saneboxpullzone-wanto.netdna-ssl.com/assets/sb-after-v2c-c5dc35424f12dfe226094900200cd0f4.png">
+			</li>
+		</ul>
+		
+		<ul id="features">
+			<li id="filtering">
+				<h3>Smart filtering for any email client, service and device</h3>
+				<p>SaneBox determines the importance of each email based on your past interaction with your Inbox. It moves unimportant messages out of the Inbox into a new folder called SaneLater, and summarizes them in a digest.</p>
+				<p>Now you can focus on what's important without missing anything!</p>
+			</li>
+			<li id="attachments">
+				<h3>Store attachments in the cloud</h3>
+				<p>So they don't take up email space and are easy to find.</p>
+			</li>
+			<li id="one-click">
+				<h3>One-click unsubscribe</h3>
+				<p>The fastest, easiest and safest way to unsubscribe.</p>
+			</li>
+			<li id="reminders">
+				<h3>Smart reminders</h3>
+				<p>Get notified when people ignore your emails.</p>
+			</li>
+			<li id="snooze">
+				<h3>Snooze non-urgent emails</h3>
+				<p>Until tomorrow, next week, or whenever you're ready.</p>
+			</li>
+		</ul>
+		
+		<div id="free-trial">
+			<h1>14-day Free Trial</h1>
+			<h2>Get out of your inbox and on with your life!</h2>
+			
+			<form class="get-started">
+				<input type="text" placeholder="Type in your email">
+				<input type="submit" class="btn-CTA" value="Get Started">
+				<p class="fineprint">By signing up you agree to our <a href="#terms">Terms of Service</a> and <a href="#privacy">Privacy Policy</a></p>
+			</form>
+		</div>
+	</div>
+	
+	<div id="footer">
+		<ul class="nav">
+			<li><a href="#pricing">Pricing</a></li>
+			<li><a href="#security">Security</a></li>
+			<li><a href="#business">For Business</a></li>
+			<li><a href="#resources">Resources</a></li>
+			<li><a href="#help">Help</a></li>
+			<li><a href="#about">About</a></li>
+		</ul>
+		<ul class="legalese">
+			<li class="fineprint">&copy; Copyright 2014 SaneBox, Inc.</li>
+			<li><a href="#terms">Terms</a></li>
+			<li><a href="#privacy">Privacy</a></li>
+		</ul>
+		<ul class="languages">
+			<li><a href="#english">English</a></li>
+			<li><a href="#francais">Fran&ccedil;ais</a></li>
+			<li><a href="#espanol">Espanol</a></li>
+			<li><a href="#portugues">Portugu&ecirc;s</a></li>
+		</ul>
+	</div>
+	
+</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="gallery.js"></script>
+<script>
+$(function()  {
+	
+	var comparison = gallery({
+		slides: '#overview li',
+		autoplay: true,
+		circular: true
+	});
+	
+});
+</script>
+</body>
+</html>
