@@ -441,6 +441,7 @@ input[type=text].has-input, textarea.has-input  {
 	font-size: 17px;
 	font-weight: normal;
 	line-height: 33px;
+	letter-spacing: -1px;
 }
 #touchpoints .email  {
 	width: 300px;
@@ -607,7 +608,7 @@ input[type=text].has-input, textarea.has-input  {
 }
 #main h2  {
 	font-family:'Utopia W01 Regular';
-	font-size: 18px;
+	font-size: 19px;
 	font-weight: normal;
 	line-height: 30px;
 }
